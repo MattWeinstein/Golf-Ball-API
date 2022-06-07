@@ -60,8 +60,8 @@ app.get('/api/:golfball',(req,res)=>{
     res.json(golfBalls[golfBall])
 })
 
-app.listen(PORT,()=>{
-    console.log('server is running')
+app.listen(process.env.PORT || PORT,()=>{
+    console.log(`server is running on ${PORT}`)
 })
 
 // let rappers = {
