@@ -60,7 +60,7 @@ app.get('/api/:golfball',(req,res)=>{
     res.json(golfBalls[golfBall])
 })
 
-app.listen(process.env.PORT || PORT,()=>{
+app.listen(PORT,()=>{
     console.log(`server is running on ${PORT}`)
 })
 
