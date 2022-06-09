@@ -1,0 +1,33 @@
+ * {
+    font-family: 'Inconsolata', monospace;
+}
+h4{
+    margin: 10px 0px;
+    color: blue;
+}
+span{
+    color: red;
+}
+
+body{
+    margin:  0px 20vh;
+}
+
+.example{
+    font-style: italic;
+    background-color: black;
+    width: fit-content;
+    padding: 5px 20px;
+    color: aqua;
+}
+
+.link{
+    font-style: italic;
+    background-color: black;
+    width: fit-content;
+    color: aqua;
+    border: 2px solid black;
+}
+span{
+    display: block;
+}

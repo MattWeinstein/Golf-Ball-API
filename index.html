@@ -2,16 +2,34 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>21 Savage Fans</title>
+        <title>Golf Ball API</title>
+        <link rel="stylesheet" type="text/css" href="static/style.css">
+
     </head>    
     <body>
-        <h1>21 Savage</h1>
-        <h2>Why you trappin so hard?</h2>
-        <h3>Unofficial 21 Savage API</h3>
-        <span>Endpoint: https://simple-rapper-api.herokuapp.com/api/:name</span>
-        
+        <h1>Golf Ball API</h1>
+        <h2>Information</h2>
+        <section>
+            <h4>What is the point of this API?</h4>
+            <p> This API can be used to acquire golf ball information about a variety of golf balls.</p>
+            <h4>How can I use this API?</h4>
+            <p> Requests to this API can be made to the endpoint listed below. Simply add the kind of golf ball you are searching for as a parameter added to the end of the URL above</p>
+            <h4>Example:</h4>
+            <p> The request of <a class ='link' href ='https://golf-ball-api.herokuapp.com/api/prov1'> https://golf-ball-api.herokuapp.com/api/prov1</a> will return the following JSON object:</p>
+            <p class ='example'>{<br>"name":"prov1",<br>"brand":"titleist",<br>"color":"white",<br>"swingSpeed":"medium",<br>"hardness":"soft",<br>"quality":"great"<br>}</p>
+            <span>Endpoint:https://golf-ball-api.herokuapp.com/api/:golfballname</span>
+            <span>Endpoint:https://golf-ball-api.herokuapp.com/api/:golfballname</span>
+            <span>Endpoint:https://golf-ball-api.herokuapp.com/api/:golfballname</span>
+            <span>Endpoint:https://golf-ball-api.herokuapp.com/api/:golfballname</span>
 
-    <script src="main.js"></script>
+            <h4>Additional Info:</h4>
+            <p>If the endpoint requested does not exist, a magic ball will be returned.</p>
+    </section>
+
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+        </style>
 
     </body>
 </html>
