@@ -20,6 +20,9 @@ body{
     padding: 5px 20px;
     color: aqua;
 }
+.exampleHeading{
+    padding-top: 10px;
+}
 
 .link{
     font-style: italic;
